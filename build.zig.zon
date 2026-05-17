@@ -1,0 +1,12 @@
+.{
+    .name = .@"ziez-tls",
+    .version = "0.1.0",
+    .minimum_zig_version = "0.16.0",
+    .dependencies = .{
+        .ziez = .{
+            .url = "https://github.com/ziez-dev/ziez/archive/refs/tags/v0.1.0.tar.gz",
+            .hash = "REPLACE_WITH_ZIG_FETCH_HASH",
+        },
+    },
+    .paths = .{ "src", "tests", "build.zig", "build.zig.zon" },
+}
