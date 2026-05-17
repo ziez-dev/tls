@@ -26,9 +26,9 @@ test "RedirectHttpConfig.shouldRedirect - disabled"
 
 test "CipherSuite enum values"
 {
-    try std.testing.expect(tls.CipherSuite.AES_128_GCM_SHA256 == @as(u16, 0x1301));
-    try std.testing.expect(tls.CipherSuite.AES_256_GCM_SHA384 == @as(u16, 0x1302));
-    try std.testing.expect(tls.CipherSuite.CHACHA20_POLY1305_SHA256 == @as(u16, 0x1303));
+    try std.testing.expect(@intFromEnum(tls.CipherSuite.AES_128_GCM_SHA256) == @as(u16, 0x1301));
+    try std.testing.expect(@intFromEnum(tls.CipherSuite.AES_256_GCM_SHA384) == @as(u16, 0x1302));
+    try std.testing.expect(@intFromEnum(tls.CipherSuite.CHACHA20_POLY1305_SHA256) == @as(u16, 0x1303));
 }
 
 test "TlsConfig defaults"
