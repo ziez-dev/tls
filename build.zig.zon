@@ -5,8 +5,8 @@
     .minimum_zig_version = "0.16.0",
     .dependencies = .{
         .ziez = .{
-            .url = "https://github.com/ziez-dev/ziez/archive/refs/tags/v0.0.1.tar.gz",
-            .hash = "ziez-0.0.1-zH20Gh1jAwADi2a_88hnfVHclInMW1YPLF_y7SS7CJ5Y",
+            .url = "https://github.com/ziez-dev/ziez/archive/refs/tags/v0.0.2.tar.gz",
+            .hash = "ziez-0.0.2-zH20GkljAwBKVh-D-Hq5jOW8OwRYsDQRt5hqkxN674tR",
         },
     },
     .paths = .{ "src", "tests", "build.zig", "build.zig.zon" },
