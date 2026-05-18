@@ -1,12 +1,12 @@
 .{
     .fingerprint = 0x6d15e6d58c964cf1,
     .name = .ziez_tls,
-    .version = "0.0.1",
+    .version = "0.0.3",
     .minimum_zig_version = "0.16.0",
     .dependencies = .{
         .ziez = .{
-            .url = "https://github.com/ziez-dev/ziez/archive/refs/tags/v0.0.2.tar.gz",
-            .hash = "ziez-0.0.2-zH20GkljAwBKVh-D-Hq5jOW8OwRYsDQRt5hqkxN674tR",
+            .url = "https://github.com/ziez-dev/ziez/archive/refs/tags/v0.0.3.tar.gz",
+            .hash = "ziez-0.0.3-zH20GkljAwCvLaouSJC9Cyh278v_vNpqT4N9HI-aR6ER",
         },
     },
     .paths = .{ "src", "tests", "build.zig", "build.zig.zon" },
